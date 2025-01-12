@@ -7,26 +7,35 @@ header {
     font-family: system-ui, sans-serif;
     color: white;
 }
-.text::before, .text::after { 
-    content: ''; 
-    position: absolute; 
-    background-color: #B3CECF; 
-    width: 180%; 
-    top: 50%; 
-    left: 50%; 
-    aspect-ratio: 1; 
-    transform: translate(-50%, 0); 
-    border-top-left-radius: 60% 80%; 
-    border-top-right-radius: 50% 80%; 
-    border-bottom-left-radius: 60% 80%; 
-    border-bottom-right-radius: 50% 80%; 
-    mix-blend-mode: multiply; 
-    animation: rot 10s linear infinite; 
+.text {
+    font-weight: 900;
+    font-size: 20vw;
+    color: #1f202000;
+    position: relative;
+    background-clip: text;
+    overflow: clip;
+    background-color: #fefcef;
   } 
-  .text::after { 
-    animation-delay: -4s; 
-    animation-duration: 8s; 
-  }
+  .text::before, .text::after {
+    content: '';
+    position: absolute;
+    background-color: #B3CECF;
+    width: 180%;
+    top: 50%;
+    left: 50%;
+    aspect-ratio: 1;
+    translate: -50% 0;
+    border-top-left-radius: 60% 80%;
+    border-top-right-radius: 50% 80%;
+    border-bottom-left-radius: 60% 80%;
+    border-bottom-right-radius: 50% 80%;
+    mix-blend-mode: multiply;
+    animation: rot 10s linear infinite;
+}
+  .text::after {
+    animation-delay: -4s;
+    animation-duration: 8s;
+}
   
   @keyframes rot {
     to {
