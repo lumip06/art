@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="art.css">
     <link rel="stylesheet" href="navigator-boxes.css">
     <link rel="stylesheet" href="flash-card.css">
-<!--    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">-->
 
     
 </head>
@@ -77,7 +76,7 @@
             <div class="faq">
                 <div class="faq-des ">
                     <h2>What does the dictionary say?</h2>
-                    <!--                   TODO AICI DACA POT PUNE NOUN ADJ DEDESUPT CA SI LA DICTIONARUL ONLINE...-->
+                
                     <h4>Derived from the Latin <b>ars</b>, meaning "skill" or "craft."</h4>
                     <div class="accordion-wrapper">
                         <div class="accordion js-accordion">
@@ -295,8 +294,7 @@
         <div class="cards">
             <div class="flashcard">
                 <div class="box-type-one">
-                    <div class="dot"> </div>
-                    <div class="dot two"> </div>
+                   
                     <div class="face">
                         <div class="eye"> </div>
                         <div class="eye right"> </div>
@@ -309,8 +307,7 @@
 
                 </div>
                 <div class="box-type-two">
-                    <div class="dot"></div>
-                    <div class="dot two"></div>
+                
                     <div class="face2">
                         <div class="eye"></div>
                         <div class="eye right"></div>
@@ -324,8 +321,7 @@
 
                 </div>
                 <div class="box-type-one">
-                    <div class="dot"> </div>
-                    <div class="dot two"> </div>
+                 
                     <div class="face">
                         <div class="eye"> </div>
                         <div class="eye right"> </div>
@@ -339,8 +335,7 @@
 
                 </div>
                 <div class="box-type-two">
-                    <div class="dot"></div>
-                    <div class="dot two"></div>
+                   
                     <div class="face2">
                         <div class="eye"></div>
                         <div class="eye right"></div>
@@ -375,7 +370,7 @@
             <div class="quote">
                 <i class="fas fa-quote-right fa1"></i>
                 <div>
-                    <!--                    <h3>Quote the day</h3>-->
+                
                     <p>“To discover the purpose of art, we must ask what kind of things we
                         need to do with our minds and emotions, but have trouble with.”</p>
                     <div>
@@ -399,7 +394,7 @@
             <div class="quote">
                 <i class="fas fa-quote-right fa1"></i>
                 <div>
-                    <!--                    <h3>Quote the day</h3>-->
+                    
                     <p>“I have an art that has no image, no object
                         and even no specific focus, so there is no
                         place to look.
@@ -458,7 +453,7 @@
 
         <div><p>Art to me is . . .</p></div>
         <p>
-            <!-- <span class="word art">Art</span> -->
+          
             <span class="word meaning">Beauty</span>
             <span class="word art">Imagination</span>
             <span class="word meaning">Creativity</span>
@@ -468,7 +463,7 @@
 
 </section>
 
-<!--TODO floating buttons-->
+
 <div class="floating-buttons">
     <button id="scrollTop" title="Go to Top">&uarr;</button>
     <button id="prevSection" title="Previous Section">&larr;</button>
@@ -499,7 +494,7 @@
 
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
-            e.preventDefault(); // Prevent default instant jump
+            e.preventDefault(); 
             const target = document.querySelector(this.getAttribute('href'));
             if (target) {
                 target.scrollIntoView({

@@ -66,28 +66,28 @@
 .professional-view {
     position: relative;
     width: 100%;
-    height: auto; /* Ensure height expands based on content */
-    display: flex; /* Flexbox for alignment */
-    justify-content: space-between; /* Center the quote boxes */
-    gap: 10px; /* Add space between boxes */
+    height: auto; 
+    display: flex; 
+    justify-content: space-between; 
+    gap: 10px; 
 }
 
 .quote-box {
     background-color: transparent;
     border-radius: 3px;
     color: #fff;
-    width: 45%; /* Adjust width to fit within the parent container with gap */
-    min-height: 300px; /* Ensure a minimum height */
+    width: 45%; 
+    min-height: 300px; 
     transform-style: preserve-3d;
     perspective: 2000px;
     transition: .4s;
     text-align: center;
-    overflow: hidden; /* Hide overflow text */
-    padding: 20px; /* Add padding for better text spacing */
-    box-sizing: border-box; /* Include padding in width calculation */
-    display: flex; /* Flexbox to align content */
-    flex-direction: column; /* Column direction */
-    justify-content: center; /* Center content vertically */
+    overflow: hidden; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
 }
 
 .quote-box:before, .quote-box:after {
@@ -118,15 +118,15 @@
 }
 
 .quote {
-    position: relative; /* Change to relative for correct positioning */
+    position: relative; 
     width: 100%;
     height: 100%;
     background-color: #2C3A47;
     border-radius: 3px;
     transition: .4s;
-    display: flex; /* Flexbox to align text */
-    align-items: center; /* Center text vertically */
-    justify-content: center; /* Center text horizontally */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
 }
 
 .fa1 {
@@ -137,9 +137,9 @@
 
 .quote div {
     width: 100%;
-    padding: 20px; /* Add padding for better text spacing */
+    padding: 20px;
     line-height: 1.5;
-    box-sizing: border-box; /* Include padding in width calculation */
+    box-sizing: border-box; 
 }
 
 .quote-box:hover .quote {
@@ -155,76 +155,158 @@
 }
 
 .quote ol {
-    padding-left: 20px; /* Adjusts left padding for the ordered list */
-    margin: 0; /* Removes default margin */
-    list-style-position: inside; /* Move numbers inside the padding area */
+    padding-left: 20px; 
+    margin: 0; 
+    list-style-position: inside;
 }
 
 .quote ol li {
-    margin: 5px 0; /* Adjusts spacing between list items */
-    padding: 0; /* Removes default padding */
-    font-size: 16px; /* Set a specific font size */
-    line-height: 1.2; /* Adjusts line height */
-    text-align: left; /* Aligns list items to the left */
+    margin: 5px 0; 
+    padding: 0; 
+    font-size: 16px; 
+    line-height: 1.2; 
+    text-align: left;
 }
 .quote div {
     width: 100%;
-    padding: 20px; /* Add padding for better text spacing */
+    padding: 20px;
     line-height: 1.5;
-    box-sizing: border-box; /* Include padding in width calculation */
-    display: flex; /* Use flexbox */
-    flex-direction: column; /* Stack items vertically */
-    justify-content: center; /* Center items vertically */
-    align-items: center; /* Center items horizontally */
-    text-align: left; /* Align text to the left */
+    box-sizing: border-box; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    text-align: left; 
 
     margin-top: 50px;
 }
 
 @media (max-width: 1024px) {
     .professional-view {
-        flex-direction: column; /* Stack quote boxes vertically */
-        gap: 20px; /* Add spacing between stacked boxes */
-        align-items: center; /* Center the stacked boxes */
+        flex-direction: column; 
+        gap: 20px; 
+        align-items: center; 
     }
 
     .quote-box {
-        width: 80%; /* Take up most of the screen width on tablets */
-        min-height: 250px; /* Reduce minimum height */
-        padding: 15px; /* Compact padding */
+        width: 80%; 
+        min-height: 250px; 
+        padding: 15px; 
     }
 
     .quote-box p {
-        font-size: 15px; /* Adjust font size for quotes */
-        line-height: 1.4; /* Adjust line height for readability */
+        font-size: 15px; 
+        line-height: 1.4; 
     }
 
     .quote ol li {
-        font-size: 14px; /* Smaller font size for ordered lists */
+        font-size: 14px; 
         line-height: 1.3;
     }
 }
 
-/* Responsive adjustments for mobile */
 @media (max-width: 768px) {
     .professional-view {
-        flex-direction: column; /* Ensure stacking of quote boxes */
-        gap: 15px; /* Add smaller spacing for mobile */
+        flex-direction: column; 
+        gap: 15px; 
     }
 
     .quote-box {
-        width: 90%; /* Almost full screen width for small devices */
-        min-height: 200px; /* Reduce minimum height further */
-        padding: 10px; /* Compact padding for mobile */
+        width: 90%; 
+        min-height: 200px; 
+        padding: 10px; 
     }
 
     .quote-box p {
-        font-size: 14px; /* Smaller font size for quotes on mobile */
+        font-size: 14px; 
         line-height: 1.3;
     }
 
     .quote ol li {
-        font-size: 13px; /* Reduce font size for ordered lists */
+        font-size: 13px; 
         line-height: 1.2;
+    }
+}
+
+@media (max-width: 414px) {
+    .testimonials {
+        margin-top: 0.5rem;
+        padding: 10px;
+        overflow: hidden; 
+    }
+
+    .testimonials ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .testimonials ul li {
+        width: 100%; 
+        padding: 0.5rem;
+    }
+
+    .testimonials ul li p {
+        max-width: 90%;
+        font-size: 14px; 
+        width: 100%; 
+    }
+
+    .testimonials-control {
+        flex-direction: column; 
+        padding: 0.5rem; 
+    }
+
+    .testimonials-control i {
+        font-size: 18px; 
+        padding: 0.8rem; 
+    }
+
+    .carousel-header {
+        font-size: 18px; 
+        margin-bottom: 0.5rem;
+    }
+
+    .professional-view {
+        flex-direction: column; 
+        gap: 10px; 
+        align-items: center; 
+    }
+
+    .quote-box {
+        width: 95%; 
+        min-height: 180px; 
+        padding: 10px; 
+    }
+
+    .quote-box p {
+        font-size: 12px; 
+        line-height: 1.3; 
+    }
+
+    .quote-box:before, 
+    .quote-box:after {
+        border-width: 10px; 
+    }
+
+    .quote ol {
+        padding-left: 15px; 
+    }
+
+    .quote ol li {
+        font-size: 12px; 
+        line-height: 1.2; 
+    }
+
+    .quote div {
+        margin-top: 20px;
+        padding: 10px; 
+        text-align: center; 
+    }
+
+    .fas {
+        font-size: 20px; 
+        height: 40px; 
+        width: 40px; 
+        line-height: 40px !important; 
     }
 }
