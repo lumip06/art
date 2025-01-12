@@ -8,6 +8,12 @@ body {
     color: #b6c9bb;
     overflow-x: hidden;
 }
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
 
 p {
     font-size: 25px;
@@ -259,8 +265,6 @@ section:last-of-type {
     width: 100%;
 }
 
-
-/*TODO================*/
 .cards-list {
     z-index: 0;
     width: 100%;
@@ -405,20 +409,118 @@ h4{
 section #myself{
     padding-bottom: 50px;
 }
-@media (max-width: 1024px) { /* Tablet view */
+@media (max-width: 1024px) { 
     p {
-        font-size: 18px; /* Slightly smaller font for readability */
+        font-size: 18px; 
     }
 
     h3 {
-        font-size: 50px; /* Adjust header size for tablets */
+        font-size: 50px; 
     }
 
     .help-container h2 {
-        font-size: 60px; /* Scale down large headings for tablets */
+        font-size: 60px; 
     }
 
     h4 {
-        font-size: 24px; /* Resize smaller headings */
+        font-size: 24px; 
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora:wght@400;700&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+body, p, ul, ol, li, span, a {
+    font-family: 'Lora', serif;
+}
+
+* {
+    font-family: 'Lora', serif;
+}
+
+@media (max-width: 414px) {
+    
+    body {
+        padding: 0 10px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    .help-container h2 {
+        font-size: 30px;
+    }
+
+   
+    .cards-list {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card {
+        width: 90%;
+        height: auto;
+        padding: 10px;
+        margin: 10px auto;
+        border-radius: 20px;
+    }
+
+    .card .card_image img {
+        height: auto;
+    }
+
+    .card .card_title {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .floating-buttons {
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .floating-buttons button {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+   
+    .accordion-wrapper {
+        padding: 15px;
+    }
+
+    .accordion-header h3 {
+        font-size: 14px;
+    }
+
+    .accordion-header .bx {
+        font-size: 24px;
+    }
+
+    .shadow {
+        width: 50px;
+        height: 10px;
+        left: 35%;
+        top: 38%;
+    }
+
+  
+    .categories-menu {
+        display: none; 
     }
 }

@@ -110,3 +110,60 @@ h2{
 .help-box h3{
     margin:0px;
 }
+
+
+@media (max-width: 414px) {
+    .help-container {
+        margin: 0;
+        padding: 5px; 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .help-container h2 {
+        font-size: 20px; 
+        margin: 10px 0;
+        padding: 5px; 
+        text-align: center; 
+    }
+
+    .boxes-row {
+        flex-direction: column; 
+        gap: 10px; 
+    }
+
+    .help-box {
+        flex: 1 1 100%; 
+        max-width: 100%; 
+        padding: 20px; 
+        min-height: 200px; 
+    }
+
+    .help-box:hover {
+        transform: translate(0, -3px) scale(1.01); 
+        box-shadow: 0 3px 10px 0 #b7bbf255; 
+        transition: 0.2s ease; 
+    }
+
+    .help-box img {
+        max-width: 80%; 
+    }
+
+    .help-box b {
+        font-size: 18px; 
+        line-height: 1.2;
+        letter-spacing: -0.2px; 
+    }
+
+    .help-box p {
+        font-size: 14px; 
+        line-height: 1.4; 
+        margin: 0 0 5px;
+    }
+
+    .help-box h3 {
+        font-size: 18px; 
+        margin: 5px 0; 
+    }
+}
