@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="carousel-style.css">
+    <link rel="stylesheet" href="artword.css">
+    <link rel="stylesheet" href="art.css">
+    <link rel="stylesheet" href="navigator-boxes.css">
+    <link rel="stylesheet" href="flash-card.css">
+<!--    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">-->
+
+    
+</head>
+<body id="home">
+<header>
+    <div class="text">Art</div>
+</header>
+
+<section id="navigator">
+    <div class="help-container">
+        <h2>What is it?</h2>
+        <div class="boxes-row">
+            <div class="help-box">
+                <a href="#dictionary" class="active">
+                    <h3>&#9312;</h3>
+                    <b>Dictionary</b>
+                    <p>Art according to dictionary</p>
+                </a>
+            </div>
+            <div class="help-box">
+                <a href="#perspectives" class="active">
+                    <h3>&#9313;</h3>
+                    <b>Perspectives on Art</b>
+                    <p></p>
+                </a>
+            </div>
+            <div class="help-box">
+                <a href="#types" class="active">
+                    <h3>&#9314;</h3>
+                    <b>Types of Art</b>
+                    <p></p>
+                </a>
+            </div>
+            <div class="help-box">
+                <a href="#">
+                    <h3>&#9315;</h3>
+                    <b>A professional view</b>
+                    <p>The science of art</p>
+                </a>
+            </div>
+            <div class="help-box">
+                <a href="#testimonials">
+                    <h3>&#9316;</h3>
+                    <b>Art to others</b>
+                    <p>What is art to you?</p>
+                </a>
+            </div>
+            <div class="help-box">
+                <a href="#myself">
+                    <h3>&#9317;</h3>
+                    <b>Art to me</b>
+                    <p>To me art is....</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="categories-container">
+
+    <div class="categories-content">
+        <section class="section" id="dictionary">
+            <div class="faq">
+                <div class="faq-des ">
+                    <h2>What does the dictionary say?</h2>
+                    <!--                   TODO AICI DACA POT PUNE NOUN ADJ DEDESUPT CA SI LA DICTIONARUL ONLINE...-->
+                    <h4>Derived from the Latin <b>ars</b>, meaning "skill" or "craft."</h4>
+                    <div class="accordion-wrapper">
+                        <div class="accordion js-accordion">
+                            <div class="accordion-header">
+                                <h3 class="collapsed" data-toggle="collapse" data-target="#1-3"
+                                    aria-expanded="false">Art as a noun.</h3>
+                            </div>
+                            <div class="accordion-body">
+                                <p>The expression or application of human creativity and imagination,
+                                    typically in visual forms, to produce works appreciated for their beauty or
+                                    emotional power.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-wrapper">
+                        <div class="accordion js-accordion">
+                            <div class="accordion-header">
+                                <h3 class="collapsed" data-toggle="collapse" data-target="#1-4"
+                                    aria-expanded="false">Art as a verb.</h3>
+                            </div>
+                            <div class="accordion-body">
+                                <p> Archaic usage, as in "thou art," meaning "you are" or "Where art thou?"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-wrapper">
+                        <div class="accordion js-accordion">
+                            <div class="accordion-header">
+                                <h3 class="collapsed" data-toggle="collapse" data-target="#1-8"
+                                    aria-expanded="false">Art as an adj.</h3>
+                            </div>
+                            <div class="accordion-body">
+                                <p>Characteristic of art or artists,done with a sense of beauty or elegance</p>
+                                <p>Synonyms:</p>
+                                <ul>
+                                    <li>Creative</li>
+                                    <li>Aesthetic</li>
+                                    <li>Imaginative</li>
+                                    <li>Tasteful</li>
+                                    <li>Expressive</li>
+                                </ul>
+
+                                <p>Usage in Sentences:</p>
+                                <ul>
+                                    <li> "Her artistic talents extend to painting and sculpture."</li>
+                                    <li>"The cake's design was incredibly artistic."</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-wrapper">
+                        <div class="accordion js-accordion">
+                            <div class="accordion-header">
+                                <h3 class="collapsed" data-toggle="collapse" data-target="#1-3"
+                                    aria-expanded="false">Artist vs Piece of art</h3>
+                            </div>
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Artist : A person who creates art, such as paintings, sculptures,
+                                        music, or other forms of creative expression.
+                                    </li>
+                                    <li>Piece of art (noun): An individual work created by an artist,
+                                        valued for its beauty, creativity, or meaning.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="perspectives">
+            <div class="faq ">
+                <div class="faq-des">
+                    <h2>Perspectives on Art</h2>
+                    <div class="accordion-wrapper">
+                        <div class="accordion js-accordion">
+                            <div class="accordion-header">
+                                <h3 class="collapsed" data-toggle="collapse" data-target="#2-1"
+                                    aria-expanded="false">Historical View</h3>
+                            </div>
+                            <div class="accordion-body">
+                                <p>Renaissance: Art celebrated humanism and perspective (e.g., Michelangelo).
+                                    Modernism: Shift to abstraction and emotional expression (e.g., Picasso).
+                                    Contemporary: Diverse, boundary-breaking forms of expression.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-wrapper">
+                        <div class="accordion js-accordion">
+                            <div class="accordion-header">
+                                <h3 class="collapsed" data-toggle="collapse" data-target="#2-2"
+                                    aria-expanded="false">Philosophical and Aesthetic Views</h3>
+                            </div>
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Philosophical discussions about what art is.</li>
+                                    <li>Aesthetic theories of art (e.g., "Art as beauty," "Art as emotional
+                                        expression").
+                                    </li>
+                                </ul>
+                                <p>Mimesis: Art imitates life (Plato).
+                                    Expressionism: Art as emotional release (Tolstoy).
+                                    Institutional Theory: Art is defined by the art world (Danto)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-wrapper">
+                        <div class="accordion js-accordion">
+                            <div class="accordion-header">
+                                <h3 class="collapsed" data-toggle="collapse" data-target="#2-3"
+                                    aria-expanded="false">Cultural Views</h3>
+                            </div>
+                            <div class="accordion-body">
+                                <p>How art is defined and valued in various cultures.
+                                </p>
+                                <p>Examples of cultural-specific art forms (e.g., Japanese Ikebana, African tribal
+                                    masks).</p>
+                                <p>Western traditions focus on individuality, while Eastern traditions often emphasize
+                                    harmony and spirituality.
+                                    Indigenous art often integrates storytelling and spiritual practices.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</div>
+<section id="types">
+    <h3>Types of art</h3>
+    <div class="cards-list">
+        <div class="card" data-content="<div class='nightsky'><h2>Visual Arts</h2><ul>
+    <li>Paintings (e.g., Monet’s Water Lilies)</li>
+    <li>Sculpture (e.g., Rodin’s The Thinker)</li>
+    <li>Photography (e.g., Ansel Adams' landscapes)</li>
+</ul></div>">
+            <div class="card_image"><img src="https://i.pinimg.com/736x/7b/22/bc/7b22bc575ff3c6bc08e8fd5dca86da96.jpg"/>
+            </div>
+            <div class="card_title title-white">
+                <p>Visual Arts</p>
+            </div>
+        </div>
+        <div class="card" data-content="<div class='nightsky'>
+        <h2>Performing Arts</h2>
+        <ul>
+            <li>Dance: Classical ballet, contemporary dance.</li>
+            <li>Theater: Shakespeare to Broadway.</li>
+            <li>Music: From symphonies to pop.</li>
+        </ul></div>">
+            <div class="card_image"><img src="https://i.pinimg.com/736x/d5/3f/8a/d53f8a94a1535a8c4364440e7a7b88ff.jpg"/>
+            </div>
+            <div class="card_title title-white">
+                <p>Performing Arts</p>
+            </div>
+        </div>
+        <div class="card" data-content="<div class='nightsky'>
+        <h2>Literary Arts</h2>
+        <ul>
+            <li>Poetry: Haiku, sonnets.</li>
+            <li>Fiction: Novels, short stories.</li>
+        </ul>
+    </div>">
+            <div class="card_image"><img src="https://i.pinimg.com/736x/e4/9d/e4/e49de4e120b89533c7dc7e05f99bb616.jpg"/>
+            </div>
+            <div class="card_title title-white">
+                <p>Literary Arts</p>
+            </div>
+        </div>
+        <div class="card" data-content="<div class='nightsky'>
+        <h2>Digital Arts</h2>
+        <ul>
+            <li>Video games as interactive storytelling.</li>
+            <li>NFTs as a new medium of ownership in art.</li>
+        </ul>
+    </div>">
+            <div class="card_image"><img src="https://i.pinimg.com/736x/63/ae/1a/63ae1aba3961457737e83454f1938c72.jpg"/>
+            </div>
+            <div class="card_title title-white">
+                <p>Digital Arts</p>
+            </div>
+        </div>
+        <div class="card" data-content="<div class='nightsky'>
+        <h2>Other Forms</h2>
+        <ul>
+            <li>Architecture (e.g., Frank Lloyd Wright).</li>
+            <li>Culinary art (e.g., Michelin-starred chefs).</li>
+        </ul>
+    </div>">
+            <div class="card_image"><img src="https://i.pinimg.com/736x/82/0a/6e/820a6eab827c6ddeb96b36613471b0f3.jpg"/>
+            </div>
+            <div class="card_title title-white">
+                <p>Other Forms</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <div id="popup-body"></div>
+        </div>
+    </div>
+</section>
+
+<section id="proffesional">
+        
+    <h3>A Proffesional View feat. ANDREI BREAHNĂ</h3>
+    <h2>Beyond art for art’s sake: the functions of art throughout history</h2>
+    <div class="flash">
+        <div class="cards">
+            <div class="flashcard">
+                <div class="box-type-one">
+                    <div class="dot"> </div>
+                    <div class="dot two"> </div>
+                    <div class="face">
+                        <div class="eye"> </div>
+                        <div class="eye right"> </div>
+                        <div class="mouth happy"> </div>
+                    </div>
+                    <div class="shadow scale"></div>
+                    <div class="message"><h1 class="alert">Ancient Rome</h1><p> STORYTELLING Art often portrayed myths
+                        and built historical narratives. The artist
+                        worked for the political and economic power.</p></div>
+
+                </div>
+                <div class="box-type-two">
+                    <div class="dot"></div>
+                    <div class="dot two"></div>
+                    <div class="face2">
+                        <div class="eye"></div>
+                        <div class="eye right"></div>
+                        <div class="mouth happy"></div>
+                    </div>
+                    <div class="shadow move"></div>
+                    <div class="message"><h1 class="alert">Middle Ages</h1><p>
+                        EDUCATION AND PROPAGANDA Art is
+                        mainly associated with the Church.
+                        Renaissance</div>
+
+                </div>
+                <div class="box-type-one">
+                    <div class="dot"> </div>
+                    <div class="dot two"> </div>
+                    <div class="face">
+                        <div class="eye"> </div>
+                        <div class="eye right"> </div>
+                        <div class="mouth happy"> </div>
+                    </div>
+                    <div class="shadow scale"></div>
+                    <div class="message"><h1 class="alert">Renaissance</h1><p> SOCIAL PRESTIGE AND AESTHETIC VALUE
+                        Commissioning artworks becomes popular
+                        among members of royal courts and middle
+                        class alike.</p></div>
+
+                </div>
+                <div class="box-type-two">
+                    <div class="dot"></div>
+                    <div class="dot two"></div>
+                    <div class="face2">
+                        <div class="eye"></div>
+                        <div class="eye right"></div>
+                        <div class="mouth happy"></div>
+                    </div>
+                    <div class="shadow move"></div>
+                    <div class="message"><h1 class="alert">Enlightenment</h1><p> ART ENTERTAINS, QUESTIONS SOCIETY,
+                        OFFERS INTELLECTUAL SATISFACTION
+                        Paris opens the first Salons, with a broad
+                        participation of the middle class. The artists
+                        advocate free creativity.
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2>Art as a spectacle</h2>
+    <p>Spectacular art can appear in many shapes
+        or sizes, but mostly it comes in large or extralarge.</p>
+    <h1>CONTEMPORARY ART: AN EXPERIENCE</h1>
+    <p>Art is not just a thing to be looked at. It has changed
+        over time to encompass different mediums and forms.</p>
+    <p>The art of now — contemporary art that can be
+        scattered across a gallery floor, projected on multiple
+        walls, requiring us to talk to someone or eat
+        something — is to be experienced.</p>
+    <div class="professional-view">
+        <div class="quote-box">
+            <i class="fas fa-quote-left fa2"></i>
+            <div class="quote">
+                <i class="fas fa-quote-right fa1"></i>
+                <div>
+                    <!--                    <h3>Quote the day</h3>-->
+                    <p>“To discover the purpose of art, we must ask what kind of things we
+                        need to do with our minds and emotions, but have trouble with.”</p>
+                    <div>
+                    <ol>
+                        <li>Remembering</li>
+                        <li>Hope</li>
+                        <li>Sorrow</li>
+                        <li>Rebalancing</li>
+                        <li>Self-Understanding</li>
+                        <li>Growth</li>
+                        <li>Appreciation</li>
+                    </ol>
+                </div>
+                    </p>— Alain de Botton and John Armstrong, authors of Art as Therapy
+                    Art enables us to become better versions of ourselves.</p>
+                </div>
+            </div>
+        </div>
+        <div class="quote-box">
+            <i class="fas fa-quote-left fa2"></i>
+            <div class="quote">
+                <i class="fas fa-quote-right fa1"></i>
+                <div>
+                    <!--                    <h3>Quote the day</h3>-->
+                    <p>“I have an art that has no image, no object
+                        and even no specific focus, so there is no
+                        place to look.
+                        Without imagine, without object, without
+                        specific focus, what’s left? A lot of it is the
+                        idea of seeing yourself seeing.”
+                        — James Turrell</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section id="testimonials">
+    <div class="carousel" id="faq-5">
+        <div class="carousel-header">
+            <h2>What do you think of "art"?</h2>
+        </div>
+        <section class="testimonials">
+
+            <div>
+                <ul id="testimonials-ul">
+                    <li>
+                        <p> Art makes mondaine things more fun. It can affect your mood and
+                            can be used as an expression of symbolism so if you are bored you can find your own meaning
+                            in someone's art
+                            or try to figure artist's intentions.</p>
+                        <small>Friend #1</small>
+                    </li>
+                    <li>
+                        <p>A hobby. </p>
+                        <small>Friend #2</small>
+                    </li>
+                    <li>
+                        <p>Art is a way for artists to express themselves.It is something that needs effort.</p>
+                        <small>Friend #3</small>
+                    </li>
+                    <li>
+                        <p>Art is a bridge—it connects us to the creator, to each other, and to something larger than
+                            ourselves.</p>
+                        <small>Chat GPT</small>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="testimonials-control">
+                <i class="fa fa-angle-left fa-2x" id="testimonials-l"></i>
+                <i class="fa fa-angle-right fa-2x" id="testimonials-r"></i>
+            </div>
+        </section>
+    </div>
+</section>
+
+<section id="myself">
+    <div class="wrapper">
+
+        <div><p>Art to me is . . .</p></div>
+        <p>
+            <!-- <span class="word art">Art</span> -->
+            <span class="word meaning">Beauty</span>
+            <span class="word art">Imagination</span>
+            <span class="word meaning">Creativity</span>
+        </p>
+    </div>
+
+
+</section>
+
+<!--TODO floating buttons-->
+<div class="floating-buttons">
+    <button id="scrollTop" title="Go to Top">&uarr;</button>
+    <button id="prevSection" title="Previous Section">&larr;</button>
+    <button id="nextSection" title="Next Section">&rarr;</button>
+</div>
+</body>
+
+<script>
+
+
+    const accordionItems = document.querySelectorAll('.js-accordion');
+
+    if (accordionItems) {
+        accordionItems.forEach((accordion) => {
+            accordion.addEventListener('click', (e) => toggleAccordion(e));
+        });
+    }
+
+    const toggleAccordion = (e) => {
+        let target = e.currentTarget;
+
+        if (!target.classList.contains('accordion--expand')) {
+            target.classList.add('accordion--expand');
+        } else {
+            target.classList.remove('accordion--expand');
+        }
+    };
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault(); // Prevent default instant jump
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start',
+                });
+            }
+        });
+    });
+</script>
+<script>
+    // Get carousel elements
+
+    var tLeftButton = $("#testimonials-l");
+    var tRightButton = $("#testimonials-r");
+
+    // Get number of <li> elements in carousel
+
+    var tItemCount = document.getElementById('testimonials-ul').querySelectorAll('li').length;
+
+    // Set length based on that
+
+    var tWidth = tItemCount * 100 + "vw";
+    $(".testimonials ul").css("width", tWidth);
+
+    // Button functionality
+
+    var tPosition = 0;
+    console.log(tPosition);
+
+    tRightButton.click(function () {
+        if (tPosition < (tItemCount - 1)) {
+            tPosition++;
+            var m = "-" + (100 * tPosition) + "vw";
+            $(".testimonials ul").animate({
+                "left": m
+            }, 500);
+            greyButton();
+        }
+    });
+
+    tLeftButton.click(function () {
+        if (tPosition > 0) {
+            tPosition--;
+            var m = "-" + (100 * tPosition) + "vw";
+            $(".testimonials ul").animate({
+                "left": m
+            }, 500);
+            greyButton();
+        }
+    });
+
+    // Grey out buttons if not useable
+
+    var greyButton = function () {
+        if (tPosition == 0) {
+            tLeftButton.css("opacity", "0.3");
+            tLeftButton.css("cursor", "default");
+        } else if (tPosition == (tItemCount - 1)) {
+            tRightButton.css("opacity", "0.3");
+            tRightButton.css("cursor", "default");
+        } else {
+            tRightButton.css("opacity", "1");
+            tRightButton.css("cursor", "pointer");
+            tLeftButton.css("opacity", "1");
+            tLeftButton.css("cursor", "pointer");
+        }
+    }
+
+    greyButton();
+
+    // And finally, if there's only one quote, kill the buttons altogether
+
+    if (tItemCount == 1) {
+        $('.testimonials-control').css('display', 'none');
+    }
+
+
+</script>
+<script>
+    let words = document.getElementsByClassName('word')
+
+    let wordArray = []; //will store arrays of letters for each word
+    let currentWord = 0; //will store the index of the currently displayed word;
+    words[currentWord].style.opacity = 1;
+    const splitLetters = word => {
+        let content = word.innerText;
+        word.innerText = '';
+        let letters = [];
+        for (let i = 0; i < content.length; i++) {
+            let letter = document.createElement('span');
+            letter.className = 'letter';
+            letter.innerText = content.charAt(i);
+            word.appendChild(letter);
+            letters.push(letter);
+        }
+        wordArray.push(letters);
+    }
+    for (let i = 0; i < words.length; i++) {
+        splitLetters(words[i]);
+    }
+    const animateLetterOut = (cw, i) => {
+        setTimeout(function () {
+            cw[i].className = 'letter out';
+        }, i * 80);
+    }
+
+    const animateLetterIn = (nw, i) => {
+        setTimeout(function () {
+            nw[i].className = 'letter in';
+        }, 340 + (i * 80)); // delay of 340, so that new letters ("design") start falling down once the first animation is completed.
+    }
+    const changeWord = () => {
+        let cw = wordArray[currentWord]; // wordArray[0] gives us: [c,o,d,e]
+        let nw = currentWord == words.length - 1 ? wordArray[0] : wordArray[currentWord + 1]; // evals to wordArray[1] and gives us: [d,e,s,i,g,n]
+
+
+        for (let i = 0; i < cw.length; i++) {
+            animateLetterOut(cw, i); // called for each letter of [c,o,d,e] with different i values, so we have a delay between each letter when they fade out.
+        }
+
+        for (let i = 0; i < nw.length; i++) {
+            //for each letter inside [d,e,s,i,g,n]
+            nw[i].className = 'letter behind'; //we set initial position to the top
+            nw[0].parentElement.style.opacity = 1; //we set the opacity to 1, but currently invisible due to overlow hidden.
+            animateLetterIn(nw, i); //animates each letter as if they fall down from top.
+        }
+        //update currentWord index.
+        currentWord = (currentWord == wordArray.length - 1) ? 0 : currentWord + 1;
+    }
+    // Call the function, sit back and enjoy the show!
+
+    changeWord(); //initial call
+    setInterval(changeWord, 4000); //call every 4s bac
+</script>
+<script>document.addEventListener("DOMContentLoaded", () => {
+    const sections = document.querySelectorAll("section");
+    let currentSectionIndex = 0;
+
+    // Scroll to Top
+    document.getElementById("scrollTop").addEventListener("click", () => {
+        window.scrollTo({top: 0, behavior: "smooth"});
+    });
+
+    // Go to Previous Section
+    document.getElementById("prevSection").addEventListener("click", () => {
+        if (currentSectionIndex > 0) {
+            currentSectionIndex--;
+            scrollToSection(currentSectionIndex);
+        }
+    });
+
+    // Go to Next Section
+    document.getElementById("nextSection").addEventListener("click", () => {
+        if (currentSectionIndex < sections.length - 1) {
+            currentSectionIndex++;
+            scrollToSection(currentSectionIndex);
+        }
+    });
+
+    // Scroll to the selected section
+    function scrollToSection(index) {
+        sections[index].scrollIntoView({behavior: "smooth"});
+    }
+
+    // Update current section index on scroll
+    window.addEventListener("scroll", () => {
+        let found = false;
+        sections.forEach((section, index) => {
+            const rect = section.getBoundingClientRect();
+            if (!found && rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
+                currentSectionIndex = index;
+                found = true;
+            }
+        });
+    });
+});</script>
+<script>
+    // Select all cards and the popup
+    const cards = document.querySelectorAll('.card');
+    const popup = document.getElementById('popup');
+    const popupBody = document.getElementById('popup-body'); // Target for dynamic content
+    const popupContent = document.querySelector('.popup-content'); // Popup inner content
+    const closeBtn = document.querySelector('.close-btn');
+
+    // Add click event listener to each card
+    cards.forEach(card => {
+        card.addEventListener('click', (e) => {
+            e.stopPropagation(); // Prevent the click from bubbling to the window
+            const content = card.getAttribute('data-content');
+            if (content) {
+                popupBody.innerHTML = content; // Inject content into popup
+                popup.style.display = 'block'; // Show popup
+            }
+        });
+    });
+
+    // Close popup when close button is clicked
+    closeBtn.addEventListener('click', () => {
+        popup.style.display = 'none';
+    });
+
+    // Close popup when clicking outside the popup content
+    window.addEventListener('click', (e) => {
+        if (popup.style.display === 'block' && !popupContent.contains(e.target)) {
+            popup.style.display = 'none';
+        }
+    });
+
+
+</script>
+
+</html>

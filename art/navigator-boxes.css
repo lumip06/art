@@ -1,0 +1,112 @@
+.help-container{
+    margin:-10px;
+    padding: 10px;
+    background-image: url('van.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.help-container h2{
+    background-color: rgba(25, 36, 58, 0.8);
+    border-radius: 10px;
+
+}
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -0.8px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        letter-spacing: -0.5px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        letter-spacing: -0.3px;
+    }
+}
+.boxes-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.help-box {
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 30px 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    /*background-color: #19243Aff;*/
+    background-color: rgba(25, 36, 58, 0.8);
+    color: black !important;
+    min-height: 250px;
+    justify-content: center;
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    max-width: calc(33.333% - 20px);
+}
+.help-box a {
+    text-decoration: none;
+}
+@media (max-width: 1024px) {
+    .help-box {
+        flex: 1 1 calc(50% - 40px);
+        max-width: calc(50% - 40px);
+    }
+}
+
+
+@media (max-width: 767px) {
+    .help-box {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+.help-box:hover{
+    transform: translate(0, -5px) scale(1.02);
+    box-shadow: 0 5px 18px 0 #b7bbf255;
+    transition: 0.3s ease;
+}
+.help-box img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.help-box b{
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: -0.3px;
+    text-align: center;
+    font-weight: 700;
+    color: #F0AD51ff;
+}
+.help-box p{
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.3px;
+    text-align: center;
+    color: #F0AD51ff;
+    margin: 0 0 10px;
+}
+.help-box h3{
+    margin:0px;
+}
