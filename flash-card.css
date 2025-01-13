@@ -54,26 +54,13 @@
     align-items: center; 
 }
 .box-type-two {
-    background: linear-gradient(to bottom left, #3b9353 40%, #49608f 100%);
+    background: linear-gradient(to bottom left, #49608f 40%,#65A4BB  100%);
 }
 .box-type-one:hover, .box-type-two:hover {
     transform: scale(1.05);
     box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.2);
 }
 
-.dot {
-    width: 8px;
-    height: 8px;
-    background: var(--white);
-    border-radius: 50%;
-    position: absolute;
-    top: 4%;
-    right: 6%;
-    transition: background 0.3s;
-}
-.dot:hover {
-    background: #C3C3C3; 
-}
 .message h1 {
     font-size: 1.5em;
     margin-bottom: 10px;
@@ -219,28 +206,6 @@
     100% {
         left: 25%;
     }
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    text-align: center;
-    font-size: 1em;
-    text-transform: uppercase;
-    padding: 10px;
-    font-family: 'Lato', sans-serif;
-}
-footer p {
-    color: #EF8D9C;
-    letter-spacing: 2px;
-}
-footer a {
-    color: #B0DB7D;
-    text-decoration: none;
-}
-footer a:hover {
-    color: #FFC39E;
 }
 
 
@@ -440,4 +405,7 @@ footer a:hover {
     footer a {
         font-size: 0.8em; 
     }
+}
+.cards p,h1{
+    color:#FBAF59;
 }
