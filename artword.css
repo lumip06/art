@@ -184,7 +184,7 @@ header {
     
     @keyframes rot {
         to {
-            rotate: 360deg;
+            transform: rotate(360deg) ;
         }
     }
 

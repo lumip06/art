@@ -227,86 +227,109 @@
         line-height: 1.2;
     }
 }
-
 @media (max-width: 414px) {
     .testimonials {
         margin-top: 0.5rem;
-        padding: 10px;
-        overflow: hidden; 
+        overflow: hidden;
     }
 
     .testimonials ul {
-        flex-direction: column;
+        display: flex;
         padding: 0;
+       
+        list-style: none; 
     }
 
     .testimonials ul li {
-        width: 100%; 
-        padding: 0.5rem;
+        width: 100%;
+        padding: 1rem 0.5rem;
+        text-align: center; 
+        box-sizing: border-box; 
+        background-color: #f9f9f9; 
+        border-radius: 5px; 
     }
 
     .testimonials ul li p {
-        max-width: 90%;
-        font-size: 14px; 
-        width: 100%; 
+        font-size: 14px;
+        width: 100%;
+        word-wrap: break-word; 
+        word-break: break-word; 
+        line-height: 1.6; 
+        margin-bottom: 1rem; 
+    }
+
+    .testimonials ul li small {
+        display: block;
+        font-size: 12px; 
+        margin-top: 0.5rem; 
+        color: #666; 
     }
 
     .testimonials-control {
-        flex-direction: column; 
-        padding: 0.5rem; 
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        gap: 1rem;
+        margin-top: 1rem; 
     }
 
     .testimonials-control i {
-        font-size: 18px; 
-        padding: 0.8rem; 
+        font-size: 24px; 
+        padding: 0.5rem;
+        cursor: pointer;
     }
 
     .carousel-header {
         font-size: 18px; 
-        margin-bottom: 0.5rem;
+        margin-bottom: 1rem; 
+        text-align: center;
     }
 
     .professional-view {
-        flex-direction: column; 
-        gap: 10px; 
-        align-items: center; 
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
     }
 
     .quote-box {
-        width: 95%; 
-        min-height: 180px; 
-        padding: 10px; 
+        width: 95%;
+        min-height: auto; 
+        padding: 15px;
+        text-align: center;
     }
 
     .quote-box p {
-        font-size: 12px; 
-        line-height: 1.3; 
+        font-size: 12px;
+        line-height: 1.3;
+        word-wrap: break-word;
+        word-break: break-word;
     }
 
     .quote-box:before, 
     .quote-box:after {
-        border-width: 10px; 
+        border-width: 10px;
     }
 
     .quote ol {
-        padding-left: 15px; 
+        padding-left: 15px;
     }
 
     .quote ol li {
-        font-size: 12px; 
-        line-height: 1.2; 
+        font-size: 12px;
+        line-height: 1.2;
     }
 
     .quote div {
         margin-top: 20px;
-        padding: 10px; 
-        text-align: center; 
+        padding: 10px;
+        text-align: center;
     }
 
     .fas {
-        font-size: 20px; 
-        height: 40px; 
-        width: 40px; 
-        line-height: 40px !important; 
+        font-size: 20px;
+        height: 40px;
+        width: 40px;
+        line-height: 40px !important;
     }
 }
+
